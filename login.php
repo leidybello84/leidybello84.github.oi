@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-  <link rel="stylesheet" href="http://localhost/okavango_5/css/style_users.css">
+  <link rel="stylesheet" href="/css/style_users.css">
 
 
  
@@ -20,7 +20,7 @@
 
   <section class="login" id="login">
 <div class="contenedor-login">
-    <form method="post" autocomplete="off">
+    <form method="post">
       <h4>Iniciar Sesion</h4>
       <div class="form-login">
         
@@ -30,13 +30,13 @@
             <div class="input-group-prepend">
               <div class="input-group-text"></div>
             </div>
-            <input type="text" name="usuario" class="form-control" id="inlineFormInputGroup" placeholder="Usuario">
+            <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Usuario">
           </div>
         </div>
         <div class="col-auto">
-          <label for="inputPassword3"  class="col-sm-2 col-form-label">Ingresar contraseña</label>
+          <label for="inputPassword3" class="col-sm-2 col-form-label">Ingresar contraseña</label>
           <div class="col-sm-10">
-            <input type="password" name="password" class="form-control" id="inputPassword3" placeholder="contraseña">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="contraseña">
           </div>
           
         </div>
@@ -73,10 +73,6 @@
   </div>
   </section>
  
-  <?php
-      include("./php/conexion.php");
-      ?>
-  
 </body>
 
 </html>
